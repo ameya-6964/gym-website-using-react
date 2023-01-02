@@ -26,6 +26,9 @@ function App()
      <Route path="/Contact" element={ <Contact /> } />
      <Route path="/packages" element={ <Packages /> } />
     </Routes>
+    <footer className='Footer'>
+      <h5> Talent Battle Gym &copy;  </h5>
+      </footer>
    </div>
   )
 }
