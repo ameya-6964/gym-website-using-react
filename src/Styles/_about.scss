@@ -1,3 +1,78 @@
-.App {
+ .gym-details
+ {
+    min-height: 85vh;
     text-align: center;
-}
+    background-image: url('../Media/Exerciese2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h1
+    {
+        font-size: 2rem;
+        margin-top: 30px;
+        color: black;
+        text-shadow: 20px 20px 15px white;
+    }
+    }
+   
+
+    .male
+    {
+       min-height: 85vh;
+       text-align: center;
+       background-image: url('../Media/Exerciese.jpg');
+       background-repeat: no-repeat;
+       background-size: cover;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       h1
+       {
+        font-size: 2rem;
+        margin-top: 30px;
+        color: gold;
+        text-shadow: 20px 20px 15px white;
+       }
+       }
+
+       .female
+       {
+          min-height: 85vh;
+          text-align: center;
+          background-image: url('../Media/Exerciese\ 3\ .jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          h1
+       {
+        font-size: 2rem;
+        margin-top: -4rem;
+        color: gold;
+        text-shadow: 40px 40px 30px black;
+       }
+    }
+
+    button{
+        margin-top: 1rem;
+        padding: 1rem 3rem;
+        background: red;
+        border-radius: 2rem;
+        border: none;
+        color: white;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: background 1s ease;
+    }
+    button:hover{
+        background: #1f2d3e ;
+    }
