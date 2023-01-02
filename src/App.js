@@ -1,27 +1,33 @@
-import React from 'react'
-import { Routes,Route,Link } from 'react-router-dom'
-import Home from './Components/Home'
-import Packages from './Components/Packages'
+import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
+import  Courses  from '../src/components/Courses';
+import  FSD  from '../src/components/FSD';
+import  Home  from '../src/components/Home';
+import Java from './components/Java';
+import Python from './components/Python';
+
 
 function App()
 {
-  return (
-      <div className='App'>
-      <nav>
-       <ul>
-        <li> <Link to='/'> Home </Link> </li>
-        <li> <Link to='/package'> Packages </Link> </li>
-       </ul>
-      </nav>
-    <div>
+  return(
+   <div>
+    <nav className='navigation'>
+      <ul>
+        <li> <Link to="/">Home</Link> </li>
+        <li> <Link to="/course">Courses</Link> </li>
+        <li> <Link to="/fsd">FSD</Link> </li>
+        <li> <Link to="/java">Java</Link> </li>
+        <li> <Link to="/python">Python</Link> </li>
+      </ul>
+    </nav>
     <Routes>
-    <Route exact path="/" element={Home} / >
-    <Route exact path="/package" element={Packages} / >
+     <Route path="/" element={ <Home /> } />
+     <Route path="/course" element={ <Courses /> } />
+     <Route path="/fsd" element={ <FSD /> } />
+     <Route path="/java" element={ <Java /> } />
+     <Route path="/python" element={ <Python /> } />
     </Routes>
-    </div>
-      </div>
-    );
+   </div>
+  )
 }
-
 export default App;
