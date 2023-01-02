@@ -1,3 +1,55 @@
-.App {
-  text-align: center;
+.Packages-Monthly
+{
+  min-height: 90vh;
+    text-align: center;
+    background-image: url('../Media/Packages.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    h1{
+      padding-top: 2rem ;
+      color: white;
+      text-shadow: 10px 10px 20px black;
+    }
+}
+
+.Packages-Annual
+{
+  min-height: 100vh;
+    text-align: center;
+    background-image: url('../Media/Services\ section.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    h1{
+      padding-top: 2rem ;
+      color: gold;
+      text-shadow: 10px 10px 20px black;
+    }
+}
+
+button{
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  background: red;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 1s ease;
+}
+button:hover{
+  color: gold;
+  background: black ;
 }
