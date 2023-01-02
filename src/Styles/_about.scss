@@ -1,6 +1,6 @@
  .gym-details
  {
-    min-height: 85vh;
+    min-height: 90vh;
     text-align: center;
     background-image: url('../Media/Exerciese2.jpg');
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@
     h1
     {
         font-size: 2rem;
-        margin-top: 30px;
+        margin-top: 10rem;
         color: black;
         text-shadow: 20px 20px 15px white;
     }
@@ -22,7 +22,7 @@
 
     .male
     {
-       min-height: 85vh;
+       min-height: 100vh;
        text-align: center;
        background-image: url('../Media/Exerciese.jpg');
        background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 
        .female
        {
-          min-height: 85vh;
+          min-height: 95vh;
           text-align: center;
           background-image: url('../Media/Exerciese\ 3\ .jpg');
           background-repeat: no-repeat;
@@ -53,10 +53,10 @@
           justify-content: center;
           align-items: center;
           text-align: center;
-          h1
+    h1
        {
         font-size: 2rem;
-        margin-top: -4rem;
+        margin-top: -10rem;
         color: gold;
         text-shadow: 40px 40px 30px black;
        }

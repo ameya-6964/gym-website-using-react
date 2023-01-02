@@ -27,7 +27,7 @@ function App()
      <Route path="/Contact" element={ <Contact /> } />
     </Routes>
     <footer className='Footer'>
-      <h5> Talent Battle Gym &copy;  </h5>
+      <h3> Talent Battle Gym &copy; &nbsp; &nbsp; &nbsp; Address : Sector 4, Airoli , Navi Mumbai &nbsp;&nbsp;&nbsp; Contact : 7715006964 </h3>
       </footer>
    </div>
   )
