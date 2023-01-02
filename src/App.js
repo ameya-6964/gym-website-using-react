@@ -1,10 +1,10 @@
 import { Link, Route, Routes } from 'react-router-dom';
-import './App.css';
-import  Courses  from '../src/Components/Courses';
-import  FSD  from '../src/Components/FSD';
+import './Styles/App.scss';
+import  About  from '../src/Components/About';
+import  Contact  from './Components/Contact';
 import  Home  from '../src/Components/Home';
-import Java from './Components/Java';
-import Python from './Components/Python';
+import Packages from './Components/Packages';
+
 
 
 function App()
@@ -14,18 +14,17 @@ function App()
     <nav className='navigation'>
       <ul>
         <li> <Link to="/">Home</Link> </li>
-        <li> <Link to="/course">Courses</Link> </li>
-        <li> <Link to="/fsd">FSD</Link> </li>
-        <li> <Link to="/java">Java</Link> </li>
-        <li> <Link to="/python">Python</Link> </li>
+        <li> <Link to="/about">About</Link> </li>
+        <li> <Link to="/contact">Contact</Link> </li>
+        <li> <Link to="/packages">Packages</Link> </li>
+        
       </ul>
     </nav>
     <Routes>
      <Route path="/" element={ <Home /> } />
-     <Route path="/course" element={ <Courses /> } />
-     <Route path="/fsd" element={ <FSD /> } />
-     <Route path="/java" element={ <Java /> } />
-     <Route path="/python" element={ <Python /> } />
+     <Route path="/about" element={ <About /> } />
+     <Route path="/Contact" element={ <Contact /> } />
+     <Route path="/packages" element={ <Packages /> } />
     </Routes>
    </div>
   )
