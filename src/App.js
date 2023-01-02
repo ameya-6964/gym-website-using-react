@@ -1,10 +1,10 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
-import  Courses  from '../src/components/Courses';
-import  FSD  from '../src/components/FSD';
-import  Home  from '../src/components/Home';
-import Java from './components/Java';
-import Python from './components/Python';
+import  Courses  from '../src/Components/Courses';
+import  FSD  from '../src/Components/FSD';
+import  Home  from '../src/Components/Home';
+import Java from './Components/Java';
+import Python from './Components/Python';
 
 
 function App()
