@@ -9,9 +9,22 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    button{
+        margin-top: 1rem;
+        padding: 1rem 3rem;
+        background: #273d58;
+        border: none;
+        color: white;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: background 1s ease;
+    }
+    button:hover{
+        background: #1f2d3e ;
+    }
 
     h1{
-       
+        text-shadow: 5px 5px 20px black;
         color: white;
     }
 }

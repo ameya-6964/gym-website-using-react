@@ -28,7 +28,7 @@
         text-decoration: none;
         color: white;
         &:hover{
-            color: green;
+            color: goldenrod;
         }
         transition: color 0.5s ease-in-out;   
     }
@@ -41,16 +41,13 @@
     background-color: rgb(2, 34, 74);
     min-height: 5vh;
     padding: 1rem;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    flex-wrap: wrap;
+    
     h5{
         font-size: 1rem;
-        color:wheat
+        color:wheat;
+        text-align: center
     }
   }
-
 
 @import './about';
 @import './contact';
