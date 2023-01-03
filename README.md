@@ -1,3 +1,7 @@
+## This site Is Deployed Live On https://gym-website-using-react.netlify.app
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/89ebd6f5-3ca1-4daf-a707-844810eccf09/deploy-status)](https://app.netlify.com/sites/gym-website-using-react/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
