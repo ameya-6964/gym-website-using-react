@@ -5,7 +5,7 @@ const Contact = () => {
     <div className='contact'>
             <h1>Contact Us</h1>
           <form >
-            <div class="Personal-details">
+            <div className="Personal-details">
               <label for="name">Name</label>
               <input id="name" type="text" required/>
               <label for="email">Email</label>
