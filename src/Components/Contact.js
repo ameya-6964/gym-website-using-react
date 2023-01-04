@@ -7,11 +7,11 @@ const Contact = () => {
           <form >
             <div className="Personal-details">
               <label htmlFor="name">Name</label>
-              <input id="name" type="text" required/>
+              <input id="name" type="text" required placeholder='John Doe' />
               <label htmlFor="email">Email</label>
-              <input id="email" type="email" required />
+              <input id="email" type="email" required placeholder='abc@xyz.com'/>
               <label htmlFor="mobile">Number</label>
-              <input id="Mobile" type="number" required />
+              <input id="mobile" type="number" required maxLength='10' placeholder='XXXXXXXXXX' />
             </div>             
             <button>Request Call Back</button>
           </form>
