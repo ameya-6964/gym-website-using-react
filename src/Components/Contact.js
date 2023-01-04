@@ -6,11 +6,11 @@ const Contact = () => {
             <h1>Contact Us</h1>
           <form >
             <div className="Personal-details">
-              <label for="name">Name</label>
+              <label htmlFor="name">Name</label>
               <input id="name" type="text" required/>
-              <label for="email">Email</label>
+              <label htmlFor="email">Email</label>
               <input id="email" type="email" required />
-              <label for="mobile">Number</label>
+              <label htmlFor="mobile">Number</label>
               <input id="Mobile" type="number" required />
             </div>             
             <button>Request Call Back</button>
